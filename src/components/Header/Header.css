@@ -1,0 +1,18 @@
+.header{
+    background-color: rgb(3, 62, 56);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 85px;
+    padding: 0 20px;
+    box-shadow: 0 0 15px 3px #000;
+}
+.header a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 15px;
+}
+.header .selected{
+    color: #ffb701;
+}
