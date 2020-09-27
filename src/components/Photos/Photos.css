@@ -1,0 +1,13 @@
+.photos-wrapper{
+    padding: 10px;
+    display: flex;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.photos{
+    width: 31vw;
+    margin: 10px;
+    box-sizing: border-box;
+}

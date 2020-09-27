@@ -3,17 +3,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    background-attachment: fixed;
     padding: 20px;
 }
 .posts-wrapper{
-    /* margin: auto; */
     margin: 0 auto;
     width: 600px;
 }
 .post{
-    /* background-color: rgb(21, 32, 43); */
-    /* background-color: #fff; */
-    background-color: rgba(234, 201, 94, 0.929);
+    background-color: rgb(245, 204, 73, 0.95);
     padding: 10px;
     color: black;
     font-size: 18px;

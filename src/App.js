@@ -4,8 +4,9 @@ import Header from "./components/Header/Header";
 import { Route, Redirect } from "react-router-dom";
 import Home from './components/Home/Home';
 import Posts from './components/Posts/Posts';
-import Photos from './components/Header/Photos/Photos';
-import Contacts from './components/Header/Contacts/Contacts';
+import Photos from './components/Photos/Photos';
+import Contacts from './components/Contacts/Contacts';
+import FullContact from './components/Contacts/FullContact';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/posts" component={Posts} />
         <Route exact path="/photos" component={Photos} />
         <Route exact path="/contacts" component={Contacts} />
+        <Route exact path="/contacts/:contactLastName" component={FullContact} />
       </div>
     </div>
   );
